@@ -1,0 +1,31 @@
+
+body{
+    font-family: "Glegoo";
+    background-image: url(../images/selectBook.jpg);
+}
+
+
+
+
+.header{
+    background-image: url(../images/healthyburgger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header-logo img{
+    width:100px;
+}
+
+
+.header-nav{
+    border: none;
+    margin-top:15px;
+    background-color: whitesmoke;
+}
+
+
+
+
+ 
