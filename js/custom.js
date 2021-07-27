@@ -40,6 +40,21 @@ function validateInput(){
     }return true;
 }
 
+function bookTable() {
+    let selectedBook = [title, author, isbn];
+
+    document.write("<table border= '1'>");
+
+        document.write("<tr><th>Title</th><th>Author</th><th>ISBN</th><th>Action</th></tr>");
+
+    for(let i = 0; i < selectedBook.length; i++) {
+        document.write("<tr>");
+            for(let k = 0; k < selectedBook[i].length; k++){
+                document.write(`<td>${selectedBook[i][k]}</td>`);
+            }
+            document.write("</tr>");
+    }
+}
 
 
 
